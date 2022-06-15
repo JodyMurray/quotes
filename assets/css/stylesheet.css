@@ -6,7 +6,7 @@ body {
     background-size: cover;
     background-color: #cfe2f3;
 }
-
+/*styling for quote section*/
 #quote-section {
     position: relative;
     top: 200px;
@@ -32,5 +32,31 @@ body {
     position: relative;
 }
 .source {
-    font-size: 1.5rem;
+    font-size: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: right;
+    margin-right: 6%;
+}
+.source::before {
+    content: "-";
+}
+#load-quote {
+    position: relative;
+    display: inline-block;
+    font-size: 25px;
+    left: 45%;
+    top: 220px;
+    width: 7rem;
+    color: #444444;
+    border-radius: 4px;
+    border: 3px solid #836896;
+    background-color: #fcf5eb;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 8px 0;
+    transition: .5s;
+}
+#load-quote:hover {
+    color: #ff7a59;
+    border: #ff7a59 solid 1px;
+    background:#fff;
 }
