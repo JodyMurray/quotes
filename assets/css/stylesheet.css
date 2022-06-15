@@ -60,3 +60,6 @@ body {
     border: #ff7a59 solid 1px;
     background:#fff;
 }
+#load-quote:focus {
+    outline: none;
+}
