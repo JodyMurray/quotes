@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Poppins:wght@100&display=swap');
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #444444;
+    background-size: cover;
+    background-color: #cfe2f3;
+}
+
+#quote-section {
+    position: relative;
+    top: 200px;
+    left: 10%;
+    width: 80%;
+}
+
+.quote {
+    font-size: 4rem;
+    position: relative;
+    text-shadow: 0 1px #444444;
+    margin: auto;
+}
+.quote::before, .quote::after {
+    font-size: 4rem;
+    position: absolute;
+}
+.quote::before {
+    content: "“";
+    position: relative;
+}
+.quote::after {
+    content: "“";
+    position: relative;
+}
+.source {
+    font-size: 1.5rem;
+}
