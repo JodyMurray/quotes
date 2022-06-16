@@ -47,4 +47,20 @@ var quotes = [
         quote: "As my knowledge of things grew I felt more and more the delight of the world I was in.",
         source: "Helen Keller"
     },
-]
+    {
+        quote: "We are what we repeatedly do. Excellence, then, is not an act, but a habit.",
+        source: "Aristotle"
+    }
+];
+
+//function to get random quote value and return a quote from quotes array.
+function getRandQuote() {
+    var randomNumber = Math.floor(Math.random() * (quotes.length));
+    var randomQuote = quotes [randomNumber];
+    return randomQuote; 
+}
+//function for random color generator.
+function getRandColor() {
+    let c = (Math.random() * 0xfffff * 1000000).toString(16);
+    return '#' + c.slice(0, 6);
+}
