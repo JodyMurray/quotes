@@ -4,7 +4,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     color: #444444;
     background-size: cover;
-    background-color: #cfe2f3;
+    filter: brightness(85%);    
 }
 /*styling for quote section*/
 #quote-section {
@@ -14,13 +14,13 @@ body {
     width: 80%;
 }
 .quote {
-    font-size: 4rem;
+    font-size: 3.5rem;
     position: relative;
     text-shadow: 0 1px #444444;
     margin: auto;
 }
 .quote::before, .quote::after {
-    font-size: 4rem;
+    font-size: 3.5rem;
     position: absolute;
 }
 .quote::before {
@@ -32,10 +32,12 @@ body {
     position: relative;
 }
 .source {
+    position: relative;
     font-size: 2rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: right;
     margin-right: 6%;
+    display: flow-root;
 }
 .source::before {
     content: "-";
@@ -45,21 +47,19 @@ body {
     display: inline-block;
     font-size: 25px;
     left: 45%;
-    top: 220px;
+    top: 250px;
     width: 7rem;
     color: #444444;
     border-radius: 4px;
-    border: 3px solid #836896;
-    background-color: #fcf5eb;
+    border: 2px solid #836896;
+    background-color: transparent;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    padding: 8px 0;
-    transition: .5s;
+    padding: 6px 0;
+    transition: 1s;
 }
 #load-quote:hover {
     color: #ff7a59;
     border: #ff7a59 solid 1px;
-    background:#fff;
+    background: transparent;
 }
-#load-quote:focus {
-    outline: none;
-}
+

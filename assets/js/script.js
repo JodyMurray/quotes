@@ -50,7 +50,27 @@ var quotes = [
     {
         quote: "We are what we repeatedly do. Excellence, then, is not an act, but a habit.",
         source: "Aristotle"
-    }
+    },
+    {
+        quote: "Nothing is impossible. The word itself says ‘I’m possible!",
+        source: "Audrey Hepburn"
+    },
+    {
+        quote: "Do not allow people to dim your shine because they are blinded. Tell them to put some sunglasses on.",
+        souece: "Lady Gaga"
+    },
+    {
+        quote: "Weaknesses are just strengths in the wrong environment.",
+        source: "Marianne Cantwell"
+    },
+    {
+        quote: "When you’ve seen beyond yourself, then you may find, peace of mind is waiting there.",
+        source: "George Harrison"
+    },
+    {
+        quote: "A lot of people are afraid to say what they want. That’s why they don’t get what they want.",
+        source: "Madonna"
+    },
 ];
 
 //function to get random quote value and return a quote from quotes array.
@@ -61,8 +81,9 @@ function getRandQuote() {
 }
 //function for random color generator.
 function getRandColor() {
-    let c = (Math.random() * 0xfffff * 1000000).toString(16);
-    return '#' + c.slice(0, 6);
+    const hue = Math.floor(Math.random() * 360);
+    const randomColor = `hsl(${hue}, 90%, 90%)`;
+    return randomColor;
 }
 
 //function for calling the getRandomQuote function and stores the returned quote object.
@@ -70,4 +91,20 @@ function printQuote() {
     var quotes = getRandQuote();
     var quoteSection = document.getElementById('quote-section');
     var quoteLine = `<p class ="quote">${quotes.quote}</p><p class ="source">${quotes.source}</p>`;
+        quoteSection.innerHTML = quoteLine;
+    
+        document.body.style.backgroundColor = getRandColor();
 }
+
+function fade(body) {
+    
+}
+
+
+document.getElementById('load-quote').addEventListener('click', () => {
+    fade();
+    printQuote();
+});
+
+
+
