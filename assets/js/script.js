@@ -71,6 +71,14 @@ var quotes = [
         quote: "A lot of people are afraid to say what they want. That’s why they don’t get what they want.",
         source: "Madonna"
     },
+    {
+        quote: "Real eyes, realize, real lies",
+        source: "Tupac Shakur"
+    },
+    {
+        quote: "However difficult life may seem, there is always something you can do and succeed at.",
+        source: "Stephen Hawking"
+    },
 ];
 
 //function to get random quote value and return a quote from quotes array.
@@ -78,12 +86,6 @@ function getRandQuote() {
     var randomNumber = Math.floor(Math.random() * (quotes.length));
     var randomQuote = quotes [randomNumber];
     return randomQuote; 
-}
-//function for random color generator.
-function getRandColor() {
-    const hue = Math.floor(Math.random() * 360);
-    const randomColor = `hsl(${hue}, 90%, 90%)`;
-    return randomColor;
 }
 
 //function for calling the getRandomQuote function and stores the returned quote object.
@@ -95,16 +97,18 @@ function printQuote() {
     
         document.body.style.backgroundColor = getRandColor();
 }
+var quoteSection = document.getElementById('quoteSection');
 
-function fade(body) {
-    
-}
+/**function getRandColor(div) {
+    const hue = Math.floor(Math.random() * 360);
+    const randomColor = `hsl(${hue}, 90%, 85%)`;
+    return randomColor;
+}**/
+window.setInterval(function(){
+    printQuote ();
+    }, 20000);
 
-
-document.getElementById('load-quote').addEventListener('click', () => {
-    fade();
-    printQuote();
-});
+document.getElementById("load-quote").addEventListener("click", printQuote, false);
 
 
 
