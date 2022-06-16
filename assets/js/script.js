@@ -52,12 +52,12 @@ var quotes = [
         source: "Aristotle"
     },
     {
-        quote: "Nothing is impossible. The word itself says ‘I’m possible!",
+        quote: "Nothing is impossible. The word itself says 'I’m possible!'",
         source: "Audrey Hepburn"
     },
     {
         quote: "Do not allow people to dim your shine because they are blinded. Tell them to put some sunglasses on.",
-        souece: "Lady Gaga"
+        source: "Lady Gaga"
     },
     {
         quote: "Weaknesses are just strengths in the wrong environment.",
