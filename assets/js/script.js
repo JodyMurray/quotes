@@ -64,3 +64,10 @@ function getRandColor() {
     let c = (Math.random() * 0xfffff * 1000000).toString(16);
     return '#' + c.slice(0, 6);
 }
+
+//function for calling the getRandomQuote function and stores the returned quote object.
+function printQuote() {
+    var quotes = getRandQuote();
+    var quoteSection = document.getElementById('quote-section');
+    var quoteLine = `<p class ="quote">${quotes.quote}</p><p class ="source">${quotes.source}</p>`;
+}
