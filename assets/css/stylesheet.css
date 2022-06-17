@@ -76,4 +76,11 @@ body {
     border: #ff7a59 solid 1px;
     background: transparent;
 }
+#welcome {
+    font-family: 'Montserrat', sans-serif;
 
+}
+#hero {
+    background-image: url('../images/hero.jpeg');
+    opacity: 85%;
+}
