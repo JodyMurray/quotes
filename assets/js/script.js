@@ -99,15 +99,16 @@ function printQuote() {
 }
 var quoteSection = document.getElementById('quoteSection');
 
-/**function getRandColor(div) {
-    const hue = Math.floor(Math.random() * 360);
-    const randomColor = `hsl(${hue}, 90%, 85%)`;
-    return randomColor;
-}**/
+function redirect()
+    {
+    var url = "quotes.html";
+    window.location(url);}
+
 window.setInterval(function(){
     printQuote ();
     }, 20000);
 
+document.getElementById("start").addEventListener("click", redirect(), false);
 document.getElementById("load-quote").addEventListener("click", printQuote, false);
 
 
