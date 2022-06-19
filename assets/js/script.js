@@ -99,16 +99,12 @@ function printQuote() {
 }
 var quoteSection = document.getElementById('quoteSection');
 
-function redirect()
-    {
-    var url = "quotes.html";
-    window.location(url);}
+
 
 window.setInterval(function(){
     printQuote ();
     }, 20000);
 
-document.getElementById("start").addEventListener("click", redirect(), false);
 document.getElementById("load-quote").addEventListener("click", printQuote, false);
 
 
