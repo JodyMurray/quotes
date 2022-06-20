@@ -40,7 +40,7 @@ var quotes = [
         source: "T.S. Eliot"
     },
     {
-        quote: "Don’t cry because it’s over, smile because it happened.",
+        quote: "Don't cry because it's over, smile because it happened.",
         source: "Dr. Seuss"
     },
     {
@@ -52,7 +52,7 @@ var quotes = [
         source: "Aristotle"
     },
     {
-        quote: "Nothing is impossible. The word itself says 'I’m possible!'",
+        quote: "Nothing is impossible. The word itself says 'I'm possible!'",
         source: "Audrey Hepburn"
     },
     {
@@ -64,11 +64,11 @@ var quotes = [
         source: "Marianne Cantwell"
     },
     {
-        quote: "When you’ve seen beyond yourself, then you may find, peace of mind is waiting there.",
+        quote: "When you've seen beyond yourself, then you may find, peace of mind is waiting there.",
         source: "George Harrison"
     },
     {
-        quote: "A lot of people are afraid to say what they want. That’s why they don’t get what they want.",
+        quote: "A lot of people are afraid to say what they want. That's why they don't get what they want.",
         source: "Madonna"
     },
     {
@@ -95,11 +95,8 @@ function printQuote() {
     var quoteLine = `<p class ="quote">${quotes.quote}</p><p class ="source">${quotes.source}</p>`;
         quoteSection.innerHTML = quoteLine;
     
-        document.body.style.backgroundColor = getRandColor();
 }
 var quoteSection = document.getElementById('quoteSection');
-
-
 
 window.setInterval(function(){
     printQuote ();

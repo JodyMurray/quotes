@@ -2,7 +2,21 @@
 * {
     margin: 0;
 }
-
+/*styling for home page, heading and start button*/
+#welcome {
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    top: 300px;
+    left: 15%;
+    font-size: 2.5rem;
+}
+#hero {
+    background-image: url(/assets/images/cloud3.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+/*styling for quote section*/
 #quote-body {
     font-family: 'Montserrat', sans-serif;
     color: #444444;
@@ -10,10 +24,11 @@
     background-color: transparent;
     filter: opacity(70%);    
     background-image: url(../images/cloud.webp);
+    background-repeat: no-repeat;
 }
-/*styling for quote section*/
 #quote-section {
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -29,6 +44,25 @@
     position: relative;
     left: 15%;
     top: 50px;
+}
+#load-quote {
+    position: relative;
+    display: inline-block;
+    font-size: 25px;
+    top: 100px;
+    width: 7rem;
+    color: #444444;
+    border-radius: 4px;
+    border: 2px solid #836896;
+    background-color: transparent;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 3px;
+    transition: 1s;
+}
+#load-quote:hover {
+    color: #ff7a59;
+    border: #ff7a59 solid 1px;
+    background: transparent;
 }
 .quote {
     font-size: 3.5rem;
@@ -59,6 +93,7 @@
 .source::before {
     content: "-";
 }
+/*styling for buttons*/
 .button {
     position: relative;
     display: inline-block;
@@ -71,7 +106,7 @@
     border: 2px solid #836896;
     background-color: transparent;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    padding: 6px 0;
+    padding: 3px;
     transition: 1s;
 }
 .button:hover {
@@ -79,31 +114,14 @@
     border: #ff7a59 solid 1px;
     background: transparent;
 }
-#welcome {
-    font-family: 'Montserrat', sans-serif;
+#start {
     position: relative;
-    top: 350px;
-    left: 20%;
+    margin-top: 25%;
+    margin-left: 12%;
 }
-#hero {
-    filter: opacity(0.6);
-    background-image: url(/assets/images/cloud2.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-#load-quote {
+
+#back {
     position: relative;
-    display: inline-block;
-    font-size: 25px;
-    left: 45%;
-    top: 150px;
-    width: 7rem;
-    color: #444444;
-    border-radius: 4px;
-    border: 2px solid #836896;
-    background-color: transparent;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    padding: 6px 0;
-    transition: 1s;
+    margin-top: -15%;
 }
 
