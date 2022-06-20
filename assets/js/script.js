@@ -96,7 +96,6 @@ function printQuote() {
         quoteSection.innerHTML = quoteLine;
     
 }
-var quoteSection = document.getElementById('quoteSection');
 
 window.setInterval(function(){
     printQuote ();
