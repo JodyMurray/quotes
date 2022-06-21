@@ -2,6 +2,7 @@
 * {
     margin: 0;
 }
+
 /*styling for home page, heading and start button*/
 #welcome {
     font-family: 'Montserrat', sans-serif;
@@ -16,12 +17,10 @@ h1 {
     font-size: 2.5rem;
 }
 #hero {
-    background-image: url(../images/pinksk.jpeg);
+    background-image: url(../images/cloud3.webp);
     background-repeat: no-repeat;
-    background-position: center;
     background-size: cover;
-    width: 100%;
-    height: 100%;
+    display: flex;
 }
 
 /*styling for quote section*/
@@ -31,7 +30,6 @@ h1 {
     background-size: cover;
     display: flex;
 }
-
 #quote-section {
     display: flex;
     flex-direction: row;
@@ -101,6 +99,7 @@ h1 {
 .source::before {
     content: "-";
 }
+
 /*styling for buttons*/
 .button {
     position: relative;
