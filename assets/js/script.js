@@ -1,3 +1,8 @@
+//Wait for the DOM to finish loading before running the page.
+window.addEventListener('DOMContentLoaded', (event) => {
+    console.log('DOM fully loaded and parsed');
+});
+
 var quotes = [
     {
         quote: "The greatest glory in living lies not in never falling, but in rising every time we fall.",

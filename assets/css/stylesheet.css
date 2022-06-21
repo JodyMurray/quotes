@@ -11,7 +11,7 @@
     font-size: 2.5rem;
 }
 #hero {
-    background-image: url(/assets/images/cloud3.webp);
+    background-image: url(../images/hero.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
