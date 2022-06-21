@@ -84,6 +84,34 @@ var quotes = [
         quote: "However difficult life may seem, there is always something you can do and succeed at.",
         source: "Stephen Hawking"
     },
+    {
+        quote: "Be yourself; everyone else is already taken.",
+        source: "Oscar Wilde"
+    },
+    {
+        quote: "It is better to be hated for what you are than to be loved for what you are not.",
+        source: "Andre Gide"
+    },
+    {
+        quote: "The purpose of our lives is to be happy.",
+        source: "Dalai Lama"
+    },
+    {
+        quote: "What matters in life is not what happens to you but what you remember and how you remember it.",
+        source: "Gabriel García Márquez"
+    },
+    {
+        quote: "The only real failure in life is not to be true to the best one knows.",
+        source: "The Buddha"
+    },
+    {
+        quote: "If you don't like the road you're walking, start paving another one.",
+        source: "Dolly Parton"
+    },
+    {
+        quote: "Lead from the heart, not the head.",
+        source: "Princess Diana"
+    },
 ];
 
 //function to get random quote value and return a quote from quotes array.
@@ -104,7 +132,7 @@ function printQuote() {
 
 window.setInterval(function(){
     printQuote ();
-    }, 20000);
+    }, 12000);
 
 document.getElementById("load-quote").addEventListener("click", printQuote, false);
 
