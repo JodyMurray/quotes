@@ -12,8 +12,9 @@
     display: flex;
     background: border-box;
 }
-#hero-body {
-    background-image: url(/assets/images/cloud2.jpeg);
+#hero-body img {
+    position: fixed;
+    display: flex;
 }
 h1 {
     font-size: 3rem;
