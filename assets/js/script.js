@@ -5,20 +5,20 @@ window.addEventListener('DOMContentLoaded', (event) => {
 
 var quotes = [
     {
-        quote: "The greatest glory in living lies not in never falling, but in rising every time we fall.",
-        source: "Nelson Mandela"
+        quote: "Never fear shadows. They simply mean there’s a light shining nearby.",
+        source: "Ruth E. Renkel"
     },
     {
         quote: "Tell me and I forget. Teach me and I remember. Involve me and I learn.",
         source: "Benjamin Franklin"
     },
     {
-        quote: "You have brains in your head. You have feet in your shoes. You can steer yourself any direction you choose.",
-        source: "Dr. Seuss"
+        quote: "A problem is a chance for you to do your best.",
+        source: "Duke Ellington"
     },
     {
-        quote: "We delight in the beauty of the butterfly, but rarely admit the changes it has gone through to achieve that beauty.",
-        source: "Maya Angelou"
+        quote: "The most sincere compliment we can pay is attention.",
+        source: "Walter Anderson"
     },
     {
         quote: "The way I see it, if you want the rainbow, you gotta put up with the rain.",
@@ -49,8 +49,8 @@ var quotes = [
         source: "Dr. Seuss"
     },
     {
-        quote: "As my knowledge of things grew I felt more and more the delight of the world I was in.",
-        source: "Helen Keller"
+        quote: "Success is falling nine times and getting up ten.",
+        source: "Jon Bon Jovi"
     },
     {
         quote: "We are what we repeatedly do. Excellence, then, is not an act, but a habit.",
@@ -61,28 +61,28 @@ var quotes = [
         source: "Audrey Hepburn"
     },
     {
-        quote: "Do not allow people to dim your shine because they are blinded. Tell them to put some sunglasses on.",
-        source: "Lady Gaga"
+        quote: "Each day comes bearing its gifts. Untie the ribbon.",
+        source: "Ann Ruth Schabacker"
     },
     {
         quote: "Weaknesses are just strengths in the wrong environment.",
         source: "Marianne Cantwell"
     },
     {
-        quote: "When you've seen beyond yourself, then you may find, peace of mind is waiting there.",
-        source: "George Harrison"
+        quote: "There is only one certainty in life and that is that nothing is certain.",
+        source: "G.K. Chesterton"
     },
     {
-        quote: "A lot of people are afraid to say what they want. That's why they don't get what they want.",
-        source: "Madonna"
+        quote: "Living is the art of getting used to what we didn't expect.",
+        source: "Eleanor C. Wood"
     },
     {
         quote: "Real eyes, realize, real lies",
         source: "Tupac Shakur"
     },
     {
-        quote: "However difficult life may seem, there is always something you can do and succeed at.",
-        source: "Stephen Hawking"
+        quote: "Kindness is one thing you can’t give away. It always comes back.",
+        source: "George Skolsky"
     },
     {
         quote: "Be yourself; everyone else is already taken.",
@@ -97,8 +97,8 @@ var quotes = [
         source: "Dalai Lama"
     },
     {
-        quote: "What matters in life is not what happens to you but what you remember and how you remember it.",
-        source: "Gabriel García Márquez"
+        quote: "Try to be a rainbow in someone else’s cloud.",
+        source: "Maya Angelou"
     },
     {
         quote: "The only real failure in life is not to be true to the best one knows.",
