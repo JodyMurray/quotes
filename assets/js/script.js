@@ -127,7 +127,6 @@ function printQuote() {
     var quoteSection = document.getElementById('quote-section');
     var quoteLine = `<p class ="quote">${quotes.quote}</p><p class ="source">${quotes.source}</p>`;
         quoteSection.innerHTML = quoteLine;
-    
 }
 
 window.setInterval(function(){

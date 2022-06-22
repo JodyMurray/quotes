@@ -8,7 +8,7 @@
     font-family: 'Montserrat', sans-serif;
     position: relative;
     width: 80%;
-    font-size: 2.5rem;
+    font-size: 3rem;
     display: flex;
     background: border-box;
 }
@@ -28,7 +28,7 @@ h1 {
     width: 65%;
     text-align: center;
     min-height: 400px;
-    padding: 45px;
+    padding: 40px;
     color: gray;
     border-radius: 10px;
     border: 10px solid rgb(208,164,145);
@@ -57,10 +57,10 @@ h1 {
     width: 65%;
     text-align: center;
     min-height: 400px;
-    padding: 45px;
+    padding: 40px;
     color: gray;
     border-radius: 10px;
-    background-color: rgb(234,215,199);
+    background-color: antiquewhite;
     border: 10px solid rgb(208,164,145);
     box-shadow: 0px 2px 6px 0px rgb(0 0 0 / 90%);
     position: absolute;
@@ -79,8 +79,8 @@ h1 {
     justify-content: center;
 }
 #load-quote:hover {
-    color: #ff7a59;
-    border: #ff7a59 solid 1px;
+    color: #836896;
+    border: #836896 solid 1px;
     background: transparent;
 }
 .quote {
@@ -128,8 +128,8 @@ h1 {
     transition: 1s;
 }
 .button:hover {
-    color: #ff7a59;
-    border: #ff7a59 solid 1px;
+    color: #836896;
+    border: #836896 solid 1px;
     background: transparent;
 }
 #start {
@@ -139,8 +139,8 @@ h1 {
     background-color: transparent;
 }
 #start:hover {
-    color: #ff7a59;
-    border: #ff7a59 solid 1px;
+    color: #836896;
+    border: #836896 solid 1px;
     background: transparent;
 }
 
