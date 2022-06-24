@@ -125,6 +125,7 @@ h1 {
     font-size: 25px;
     width: 7rem;
     color: #444444;
+    font-weight: 100;
     border-radius: 4px;
     border: 2px solid #836896;
     background-color: transparent;
@@ -148,30 +149,147 @@ h1 {
     border: #836896 solid 1px;
     background: transparent;
 }
-
+ /* Media queries for responsive design */
 /* For large to medium screens sizes from 2560px wide and down */
 @media screen and (max-width: 2560px){
+    #hero {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    padding: 5%;
+    }
+    #welcome {
+    font-size: 5rem;
+    }
+    #start {
+    width: 10%;
+    font-size: 3.5rem;
+    height: auto;
+    top: 75%;
+    }
+
     #quote-section {
-        position: absolute;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    padding: 5%;
+    }
+    .quote  {
+    font-size: 5rem;
+    }
+    #load-quote {
+    width: 10%;
+    font-size: 3.5rem;
+    height: auto;
+    top: 75%;
+    }
+    .source {
+    font-size: 4rem;
     }
 }
 /* For large to medium screens sizes from 1440px wide and down */
 @media screen and (max-width: 1440px){
+    #hero {
+        min-height: 50%;
+        width: 57%;
+        top: 12%;
+        left: 16%;
+        padding: 4%;
+    }
+    #welcome {
+        font-size: 3rem;
+    }
+    #start {
+        top: 90%;
+        height: auto;
+        font-size: 2rem;
+    }
     #quote-section {
         min-height: 50%;
+        width: 57%;
+        top: 12%;
+        left: 16%;
+    }
+    .quote {
+        font-size: 3rem;
+    }
+    .source {
+        font-size: 2.5rem;
+    }
+    #load-quote {
+        top: 90%;
+        height: auto;
+        font-size: 2rem;
     }
 }
+/* For large to medium screens sizes from 1024px wide and down */
+@media screen and (max-width: 1024px){
+    #hero {
+          }
+    #welcome {
+        font-size: 2.5rem;
+    }
+    #start {
+        font-size: 2rem;
+        top: 87%;
+    }
+    #load-quote {
+        font-size: 2rem;
+        height: 8%;
+    }
+    .quote {
+        font-size: 2.5rem;
+    }
+    .source {
+        font-size: 2rem;
+    }
+}
+
 /* For medium tablet screens sizes from 768px wide and down */
 @media screen and (max-width: 768px){
+    #hero {
+        min-height: 40%;
+        width: 57%;
+        top: 12%;
+        left: 16%;
+    }
+    #welcome {
+        font-size: 2.5rem;
+    }
+    #start {
+        top: 75%;
+        font-size: 1.7rem;
+        height: auto;
+    }
     #quote-section {
         min-height: 40%;
     }
     #quote-body {
         background-size: inherit;
     }
+    #load-quote {
+        top: 75%;
+        font-size: 1.7rem;
+        height: auto;
+    }
 }
 /* For medium to large phone screens sizes from 425px wide and down */
 @media screen and (max-width: 425px){
+    #welcome {
+        font-size: 2.5rem;
+        position: absolute;
+    }
+    #hero {
+        padding: 40px;
+        margin-left: -5%;
+    }
+    #start {
+        position: absolute;
+        width: 20%;
+        height: 10%;
+        left: 41%;
+    }
+
     #quote-section {
         min-height: 20%;
         position: sticky;
@@ -179,8 +297,10 @@ h1 {
     }
     #load-quote {
         position: relative;
-        top: 20%;
-        margin-left: -31px;
+        top: 18%;
+        width: 20%;
+        height: 10%;
+        left: 41%;
     }
     .quote {
         font-size: 2.5rem;        
@@ -192,16 +312,49 @@ h1 {
 }
 /* For medium phone screens sizes from 375px wide and down */
 @media screen and (max-width: 375px) {
+    #hero {
+        margin-left: -5%;
+        padding: 40px;
+    }
+    #start {
+        width: 20%;
+        height: auto;
+    }
+    .quote {
+        font-size: 2.4rem;
+    }
+    #quote-section {
+        padding: 30px;
+    }
     #load-quote {
-    position: relative;    
+        position: relative; 
 }
 }
 /* For small phone screens sizes from 320px wide and down */
 @media screen and (max-width: 320px) {
+    #welcome {
+        font-size: 2rem;
+    }
+    #hero {
+        padding: 30px;
+    }
+    #start {
+        height: auto;
+        width: auto;
+    }
     #quote-section {
         margin-left: 20px;
     }
     .quote {
         font-size: 2rem;
+    }
+    .source {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    #load-quote {
+        font-size: 1.5rem;
+        top: 15%;
+        height: auto;
     }
 }

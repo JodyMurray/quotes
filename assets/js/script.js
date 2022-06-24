@@ -25,10 +25,6 @@ var quotes = [
         source: "Dolly Parton"
     },
     {
-        quote: "There isn't a way things should be. There's just what happens, and what we do.",
-        source: "Terry Pratchett"
-    },
-    {
         quote: "You never really learn much from hearing yourself speak.",
         source: "George Clooney"
     },
