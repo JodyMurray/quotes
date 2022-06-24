@@ -125,7 +125,7 @@ h1 {
     font-size: 25px;
     width: 7rem;
     color: #444444;
-    font-weight: 100;
+    font-weight: 200;
     border-radius: 4px;
     border: 2px solid #836896;
     background-color: transparent;
@@ -165,7 +165,9 @@ h1 {
     width: 10%;
     font-size: 3.5rem;
     height: auto;
-    font-weight: bold;
+    font-weight: 200;
+    top: 75%;
+    left: 48%;
     }
 
     #quote-section {
@@ -181,9 +183,7 @@ h1 {
     width: 10%;
     font-size: 3.5rem;
     height: auto;
-    top: 75%;
-    margin-left: 60px;
-    font-weight: bold;
+    left: 48%;
     }
     .source {
     font-size: 4rem;
@@ -202,9 +202,10 @@ h1 {
         font-size: 3rem;
     }
     #start {
-        top: 90%;
+        top: 85%;
         height: auto;
         font-size: 2rem;
+        margin-left: -4%;
     }
     #quote-section {
         min-height: 50%;
@@ -222,7 +223,7 @@ h1 {
         top: 90%;
         height: auto;
         font-size: 2rem;
-        margin-left: -4px;
+        margin-left: -4%;
     }
 }
 /* For large to medium screens sizes from 1024px wide and down */
@@ -237,6 +238,7 @@ h1 {
     #load-quote {
         font-size: 2rem;
         height: 8%;
+        margin-left: -3%;
     }
     .quote {
         font-size: 2.5rem;
@@ -301,8 +303,8 @@ h1 {
         position: relative;
         top: 18%;
         width: 20%;
-        height: 10%;
-        left: 41%;
+        height: auto;
+        left: 44%;
     }
     .quote {
         font-size: 2.5rem;        
@@ -321,6 +323,7 @@ h1 {
     #start {
         width: auto;
         height: auto;
+        margin-left: 1%;
     }
     .quote {
         font-size: 2.4rem;
