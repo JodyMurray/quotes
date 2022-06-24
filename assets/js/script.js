@@ -1,11 +1,11 @@
 //Wait for the DOM to finish loading before running the page.
 window.addEventListener('DOMContentLoaded', (event) => {
-    console.log('DOM fully loaded and parsed');
+    document.getElementById("load-quote").addEventListener("click", printQuote, false);
 });
 
 var quotes = [
     {
-        quote: "Never fear shadows. They simply mean there’s a light shining nearby.",
+        quote: "Never fear shadows. They simply mean there's a light shining nearby.",
         source: "Ruth E. Renkel"
     },
     {
@@ -81,7 +81,7 @@ var quotes = [
         source: "Tupac Shakur"
     },
     {
-        quote: "Kindness is one thing you can’t give away. It always comes back.",
+        quote: "Kindness is one thing you can't give away. It always comes back.",
         source: "George Skolsky"
     },
     {
@@ -97,7 +97,7 @@ var quotes = [
         source: "Dalai Lama"
     },
     {
-        quote: "Try to be a rainbow in someone else’s cloud.",
+        quote: "Try to be a rainbow in someone else's cloud.",
         source: "Maya Angelou"
     },
     {
@@ -111,6 +111,30 @@ var quotes = [
     {
         quote: "Lead from the heart, not the head.",
         source: "Princess Diana"
+    },
+    {
+        quote: "The time is always right to do what is right.",
+        source: "Martin Luther King Jr."
+    },
+    {
+        quote: "There is nothing impossible to they who will try.",
+        source: "Alexander the Great"
+    },
+    {
+        quote: "Believe you can and you're halfway there.",
+        source: "Theodore Roosevelt"
+    },
+    {
+        quote: "It is during our darkest moments that we must focus to see the light.",
+        source: "Aristotle"
+    },
+    {
+        quote: "Life is like riding a bicycle. To keep your balance, you must keep moving.",
+        source: "Albert Einstein"
+    },
+    {
+        quote: "Try to be a rainbow in someone else's cloud.",
+        source: "Maya Angelou"
     },
 ];
 
@@ -132,8 +156,3 @@ function printQuote() {
 window.setInterval(function(){
     printQuote ();
     }, 12000);
-
-document.getElementById("load-quote").addEventListener("click", printQuote, false);
-
-
-
