@@ -2,7 +2,6 @@
 * {
     margin: 0;
 }
-
 /*styling for home page, heading and start button*/
 #welcome {
     font-family: 'Montserrat', sans-serif;
@@ -32,7 +31,7 @@ h1 {
     width: 55%;
     text-align: center;
     min-height: 400px;
-    padding: 40px;
+    padding: 30px;
     color: gray;
     border-radius: 10px;
     border: 10px solid rgb(208,164,145);
@@ -43,8 +42,6 @@ h1 {
     font-family: 'Montserrat', sans-serif;
     color: #444444;
 }
-
-
 /*styling for quote section*/
 #quote-body {
     background-image: url(../images/cloud.webp);
@@ -62,7 +59,7 @@ h1 {
     width: 55%;
     text-align: center;
     min-height: 400px;
-    padding: 40px;
+    padding: 30px;
     color: gray;
     border-radius: 10px;
     background-color: antiquewhite;
@@ -150,8 +147,8 @@ h1 {
     background: transparent;
 }
  /* Media queries for responsive design */
-/* For large to medium screens sizes from 2560px wide and down */
-@media screen and (max-width: 2560px) {
+/* For large to medium screens sizes from 2560px (max) wide and down and 1900px (min)*/
+@media screen and (min-width: 1900px) and (max-width: 2560px) {
     #hero {
     position: absolute;
     top: 20%;
@@ -169,7 +166,6 @@ h1 {
     top: 75%;
     left: 48%;
     }
-
     #quote-section {
     position: absolute;
     top: 20%;
@@ -184,12 +180,13 @@ h1 {
     font-size: 3.5rem;
     height: auto;
     left: 48%;
+    top: 75%;
     }
     .source {
     font-size: 4rem;
     }
 }
-/* For large to medium screens sizes from 1440px wide and down */
+/* For large to medium screens sizes from 1600px wide (max) and down and 1440px(max) */
 @media screen and (min-width: 1440px) and (max-width: 1600px){
     #hero {
         min-height: 50%;
@@ -205,13 +202,12 @@ h1 {
         top: 85%;
         height: auto;
         font-size: 2rem;
-        margin-left: -4%;
+        margin-left: 1%;
     }
     #quote-section {
         min-height: 50%;
         width: 57%;
         top: 12%;
-        left: 16%;
     }
     .quote {
         font-size: 3rem;
@@ -220,10 +216,9 @@ h1 {
         font-size: 2.5rem;
     }
     #load-quote {
-        top: 90%;
         height: auto;
         font-size: 2rem;
-        margin-left: -4%;
+        margin-left: 1%;
     }
 }
 /* For large to medium screens sizes from 1024px wide and down */
@@ -316,7 +311,7 @@ h1 {
         top: 18%;
         width: 20%;
         height: auto;
-        left: 44%;
+        left: 43%;
     }
     .quote {
         font-size: 2.5rem;        
